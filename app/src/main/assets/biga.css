@@ -1,0 +1,298 @@
+body {
+	background-image:url('beamx.png');
+	background-repeat:no-repeat;
+	/*background-color:#8B4726;*/
+	background-color:black;
+	background-position:center; 
+}
+a:hover{background-color:white;}
+table, td{
+	border:0px solid #924e2d;
+	width:100%;
+	padding:1px
+}
+
+.overgrow:hover{
+	background-color:black;
+	color:white;
+}
+
+.pixels100{
+	width:140px;
+}
+.pixels50{
+	width:50px;
+}
+
+#magnified{
+	display:none;
+	position:relative;
+	width:478px;
+	height:123px;
+	top:-695px;
+	left:1px;
+	background-color:white;
+	opacity:0.7;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 40px;
+	color: #000000;
+}
+
+#maindiv{
+	width:480px;
+	height:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#beamdraw{
+
+	width:479px;
+	height:244px;
+}
+
+#caracteristiques{
+	height:20px;
+}
+
+#behaviour{
+	height:315px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:2px;
+	overflow:auto;
+}
+#bigadiv{
+	display:block;
+	height:51px;
+}
+#longdiv{
+	display:block;
+	height:49px;
+	width:479px;
+}
+#loaddiv{
+	display:block;
+	height:51px;
+	width:479px;
+}
+#showloaddiv{
+	/*position:relative;*/
+	/*margin-top:40px;*/
+	/*margin-top:40px;*/
+}
+#space1{
+	height:40px;
+}
+#space2{
+	height:40px;
+}
+#space3{
+	height:113px;
+}
+#showload{
+	position:relative;
+	margin-left:90px;
+/*
+	left:100px;
+	top:30px;	
+*/
+}
+#showlongbeam{
+	position:relative;
+	margin-left:90px;
+/*
+	left:-50px;
+	top:228px;
+*/
+}
+#showwidthbeam{
+	position:relative;
+	float:right;
+	margin-right:150px;
+/*
+	left:60px;
+	top:228px;
+*/
+}
+#showheightbeam{
+	position:relative;
+	float:right;
+	margin-right:30px;
+/*
+	left:280px;
+	top:110px;
+*/
+}
+#showipx{
+	position:relative;
+	margin-left:90px;
+/*
+	left:30px;
+	top:100px;	
+*/
+}
+#selperfils{
+	float:left;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 34px;
+	color: #000000;
+	background-color:#3333FF;
+}
+#selxxyy{
+	float:left;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 34px;
+	color: #000000;
+	background-color:#3333FF;		
+}
+#steelstuff{
+	float:left;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 34px;
+	color: #000000;	
+	background-color:#3333FF;		
+}
+#sellongm{
+	float:left;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 34px;
+	color: #000000;	
+	background-color:#8B4726;	
+}
+#sellongcm{
+	float:left;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 34px;
+	color: #000000;	
+	background-color:#8B4726;		
+}
+#selloadtons{
+	float:left;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 34px;
+	color: #000000;	
+	background-color:#EE2222;	
+}
+#selloadkg{
+	float:left;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 34px;
+	color: #000000;	
+	background-color:#EE2222;		
+}
+
+#selmajoracio{
+	float:left;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 34px;
+	color: #000000;	
+	background-color:#EE2222;			
+}
+
+#caracters{
+	float:left;
+	margin-top:2px;
+	margin-left:5px;
+	vertical-align:text-bottom;
+}
+.rosa1{color:#ffdddd;}
+.rosa2{color:#ffbbbb;}
+.rosa3{color:#ff9999;}
+.rosa4{color:#ff0000;}
+
+.red{
+	color:red;
+}
+
+.textospagina{
+	
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	color: #000000;
+	margin-bottom:1px;	
+}
+.textosviuspagina{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 15px;
+	color: #000000;
+	margin-bottom:1px;	
+}
+
+.right{
+	float:right;
+	font-weight: bold;
+	position:relative;
+	top:2px;
+}
+
+.lletrasol{
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	color: #ffffff;
+}
+.microframe{
+	
+	float:left;
+}
+.micro{
+	font-size:10px;
+	float:left;
+}
+.micro2{
+	font-size:12px;
+	float:left;
+}
+.lletrapetita{
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	color: #000000;
+}
+.lletrapetita2{
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 11px;
+	color: #000000;
+}
+#txtperfil{
+	float:left;
+	margin-right:5px;
+}
+#txtlongitud{
+	position:relative;
+	width:479px;
+}
+
+#liniadetext{
+	float:right;
+	height:18px;
+	width:479px;
+	
+}
+#txtcarrega{
+	/*display:block;*/
+	position:relative;
+	left:0px;
+}
+#txtmajoracio{
+	/*display:block;*/
+	position:relative;
+	float:right;
+	margin-right:50px;
+}
+#peu{
+	margin-top:2px;
+	text-align:center;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="reset.css"/>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="biga.css"/>
+        <title>Biga</title>
+    </head>
+    <body onload="init()">
+  	<div id="maindiv">
+		<div id="beamdraw">
+		<div id="space1">&nbsp;</div>
+		<div id="showloaddiv"><label id="showload" class="textosviuspagina">0.0 Kg/m </label></div>
+		<div id="space2">&nbsp;</div>
+		<div id="showipxdiv"><label id="showipx" class="textosviuspagina">IPN-80</label><label id="showheightbeam" class="textosviuspagina">00 cm.</label></div>
+		<div id="space3">&nbsp;</div>
+		<div id="showlongbeamdiv"><label id="showlongbeam" class="textosviuspagina">0.00 m.</label><label id="showwidthbeam" class="textosviuspagina">00 cm.</label></div>
+		</div>
+
+		<div id="behaviour">
+		<div id="showresults" class="lletrasol">Comportament</div>	
+		</div>
+
+		<form id="form">		
+			<div id="caracteristiques"><label id="txtperfil" class="textospagina">Perfil:</label><label id="caracters" class="lletrapetita">caracteristiques del perfil</label></div>
+			<div id="bigadiv">
+			<select id="selperfils" onchange="entraDades();" name="perfil"></select>
+			<select id="selxxyy" onchange="entraDades();" name="SentitInercia">
+			<option value="x-x"> x--x </option> 
+			<option value="y-y"> y--y </option> 
+			</select>
+			<select id="steelstuff" onchange="entraDades();" name="Acer">
+			<option value="2250.0">S235</option>
+			<option value="2650.0" selected="selected">S275</option>
+			<option value="3450.0">S355</option>
+			<option value="4300.0">S450</option>
+			</select>
+			</div>
+			<label id="txtlongitud" class="textospagina">Longitud:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<div id="longdiv">
+			<select id="sellongm" onchange="entraDades();"></select>
+			<select id="sellongcm" onchange="entraDades();"></select>
+			</div>
+			<div id="liniadetext"><label id="txtcarrega" class="textospagina">C&agrave;rrega:</label><label id="txtmajoracio" class="textospagina">Majoraci&oacute;:</label></div>
+			<div id="loaddiv"> 
+			<select id="selloadtons" onchange="entraDades();"></select>
+			<select id="selloadkg" onchange="entraDades();"></select>
+			<select id="selmajoracio" onchange="entraDades();">
+				<option value="1.0">1.0</option>
+				<option value="1.2">1.20</option>
+				<option value="1.35">1.35</option>
+				<option value="1.50" selected="selected">1.50</option>
+			</select>	
+			</div>
+		</form>
+	<div id="peu">
+		<p><label class="lletrapetita2">C&agrave;lcul&nbsp;de&nbsp;biga&nbsp;recolzada i c&agrave;rrega uniforme &copy;1999-<script type="application/javascript"> document.write(new Date().getFullYear()); </script>
+			<a href="http://www.nummolt.com/"> www.nummolt.com </a>-<a href="http://arquitectes.coac.net/mcj"> Maurici Carb&oacute;.</a></label></p>
+	</div>
+	<div id="magnified"><label></label></div>	
+	</div>      
+       
+        
+        <!-- 
+        <div class="app">
+            <h1>Apache Cordova.  Hello World</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready, now</p>
+            </div>
+        </div>
+         -->
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="biga.js" type="application/javascript"></script>
+    </body>
+</html>
